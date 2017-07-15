@@ -1,0 +1,13 @@
+{
+	"name": "xwp/wp-banner-image",
+	"type": "wordpress-plugin",
+	"description": "WordPress plugin scaffold/template",
+	"homepage": "https://github.com/xwp/wp-banner-image",
+	"license": "GPLv2",
+	"require-dev": {
+		"satooshi/php-coveralls": "dev-master"
+	},
+	"extra": {
+		"installer-name": "banner-image"
+	}
+}
