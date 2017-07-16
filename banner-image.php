@@ -2,16 +2,16 @@
 /**
  * Plugin Name: Banner Image
  * Plugin URI: https://github.com/xwp/wp-banner-image
- * Description: ...
- * Version: 0.1
- * Author:  XWP
- * Author URI: https://xwp.co/
+ * Description: Show Banner Image in the TOP of the WP sites.
+ * Version: 1.0
+ * Author:  raftaar1191
+ * Author URI: https://raftaar1191.com/
  * License: GPLv2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: banner-image
  * Domain Path: /languages
  *
- * Copyright (c) 2016 XWP (https://xwp.co/)
+ * Copyright (c) 2016 XWP (https://raftaar1191.com/)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2 or, at
