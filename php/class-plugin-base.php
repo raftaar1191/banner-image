@@ -19,7 +19,12 @@ abstract class Plugin_Base {
 	 *
 	 * @var array
 	 */
-	public $config = array();
+	public $config = array(
+		'option_name' => 'banner_imges_setting',
+		'js_handle_frountend' => 'banner-image-frountend-js',
+		'css_handle_frountend' => 'banner-image-frountend-css',
+		'version'     => '1.0'
+	);
 
 	/**
 	 * Plugin slug.
