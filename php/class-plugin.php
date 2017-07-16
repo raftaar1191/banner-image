@@ -65,7 +65,6 @@ class Plugin extends Plugin_Base {
 		if ( defined( WP_DEBUG ) && WP_DEBUG ) {
 			$style_name = "frountend.css";
 		}
-		$wp_styles->add( $this->config['css_handle_frountend'], $this->dir_url . 'plugins/' . $this->slug . "/css/" . $style_name, array( 'jquery' ), $this->config['version'] );
-		$wp_styles->add_data( $this->config['css_handle_frountend'] , 'group', 1 );
+		$wp_styles->add( $this->config['css_handle_frountend'], $this->dir_url . 'plugins/' . $this->slug . "/css/" . $style_name, array(), $this->config['version'] );
 	}
 }
