@@ -1,36 +1,42 @@
-div.banner-image-wp-head {
+/*----- Banner Image CSS ---*/
+
+.banner-image-wp-head{
+    position: relative;
+    z-index: 100;
     width: 100%;
-    position: fixed !important;
-    background-color: #c05e37;
-    color: #fff;
-    z-index: 1000
-}
-
-div.banner-image-wp-head a.banner-image{
-    top: 0;
-    position: absolute;
-}
-
-div.banner-image-wp-head a.banner-close{
-    position: absolute;
-    top: 5%;
-    right: 10%;
-    color: black;
     display: block;
-    font-size: 30px;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 25px;
+    top: 0;
+    }
+
+.banner-image-wp-head a.banner-image{
+    display: block;
 }
 
-div.banner-image-wp-head img{
-    border: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    max-width: 100%;    
-    height: auto;
+.banner-image-wp-head a.banner-image img{
+    max-width: 100%;
+    height: auto;;
+    display: block;
 }
 
-/*----- Neeraj CSS ---*/
-
+.banner-image-wp-head a.banner-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    color:#000;
+    height: 20px;
+    width: 20px;
+    font-weight:bold;
+    text-align: center;
+    line-height: 18px;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition:all 0.3s;
+    }
+.banner-image-wp-head a.banner-close:hover{
+    background:#000;
+    color:#fff;
+}
