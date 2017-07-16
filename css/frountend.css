@@ -8,6 +8,10 @@
     top: 0;
     }
 
+.banner-image-wp-head.banner-image-fixed{
+    position: fixed;
+}
+
 .banner-image-wp-head a.banner-image{
     display: block;
 }
