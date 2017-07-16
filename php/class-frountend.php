@@ -38,7 +38,7 @@ class frountend extends Plugin_Base {
 		$image_src = wp_get_attachment_image_src( $this->setting['image_id'], 'full' );
 		if ( $image_src ) {
 			?>
-            <div class="banner-image banner-image-wp-head">
+            <div class="banner-image banner-image-wp-head banner-image-fixed">
                 <a class="banner-image" href=" <?php echo $this->setting['image_link']; ?> " >
                     <img src="<?php echo $image_src[0]; ?>">
                 </a>
