@@ -11,7 +11,7 @@
  * Text Domain: banner-image
  * Domain Path: /languages
  *
- * Copyright (c) 2016 XWP (https://raftaar1191.com/)
+ * Copyright (c) 2016 raftaar1191 (https://raftaar1191.com/)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2 or, at
